@@ -1,0 +1,20 @@
+rootProject.name = 'inter-malchik'
+// include 'banks'
+// include 'banks:domain'
+// findProject(':banks:domain')?.name = 'domain'
+// include 'banks:cli'
+// findProject(':banks:cli')?.name = 'cli'
+
+// include 'catsdal'
+// include 'catsservices'
+// include 'catscontrollers'
+
+include 'RabbitMQconfigmodule'
+include 'catsmanagementDAL'
+include 'catsDTOs'
+include 'catsmicroservice'
+include 'ownersmicroservice'
+include 'authmodule'
+include 'catsmanagementBLL'
+include 'catsmanagementPL'
+
